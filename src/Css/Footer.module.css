@@ -1,0 +1,27 @@
+.footer {
+    font-family: monospace;
+    font-weight: bold;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    background-color: #e0e0e0;
+    box-shadow: -18px -18px 36px #bebebe, 18px 18px 36px #ffffff;
+}
+
+.paragraph {
+    margin-top: 10px;
+    color: blue;
+    font-size: 14px;
+}
+
+.botao {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}

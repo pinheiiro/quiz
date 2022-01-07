@@ -1,0 +1,88 @@
+.answer {
+    width: 80vw;
+    height: 70vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #e0e0e0;
+    border-radius: 27px;
+    box-shadow: -18px -18px 36px #bebebe, 18px 18px 36px #ffffff;
+}
+
+.questions {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+}
+
+.option {
+    font-size: 18px;
+    width: 15vw;
+    height: 5vh;
+    margin: 0 10px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid blue;
+    color: blue;
+    font-family: 'Poppins', sans-serif;
+}
+
+.option:hover {
+    background-color: blue;
+    color: white;
+}
+
+.finaly {
+    width: 80vw;
+    height: 70vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    background-color: #e0e0e0;
+    border-radius: 27px;
+    box-shadow: -18px -18px 36px #bebebe, 18px 18px 36px #ffffff;
+}
+
+.message {
+    text-align: center;
+    font-size: 30px;
+}
+
+.acertos {
+    font-size: 40px;
+    color: green;
+    font-weight: bold;
+}
+
+.total {
+    color: blue;
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button {
+    width: 20%;
+    background-color: blue;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: transparent;
+    color: blue;
+    font-weight: bold;
+    border: 1px solid blue;
+}
