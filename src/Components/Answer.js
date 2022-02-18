@@ -68,7 +68,7 @@ function Answer() {
     }
 
     return (
-        <div>
+        <div className={style.container}>
             { sentence ? (
                 <div className={style.answer}>
                     <h2 className={style.questions}>{questions[question].perg}</h2>

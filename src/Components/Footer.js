@@ -3,21 +3,9 @@ import Style from '../Css/Footer.module.css';
 
 function Footer() {
 
-    const [contato, setContato] = React.useState(false);
-
-    function mostrar() {
-        setContato(!contato);
-    }
-
     return (
         <div className={Style.footer}>
-            <h2>Desenvolvido por Gabriel Pinheiro</h2>
-            <p className={Style.paragraph}>
-                <button className={Style.botao} onClick={mostrar}>Contato</button>
-                {contato && (
-                    " GP.PSL55@GMAIL.COM"
-                )}
-            </p>
+            <h2 className={Style.h2}>Desenvolvido por <a target='_blank' href='https://pinheiro.vercel.app/' rel="noreferrer" >Gabriel Pinheiro</a></h2>
         </div>
     )
 }

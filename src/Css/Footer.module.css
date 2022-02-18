@@ -10,18 +10,6 @@
     box-shadow: -18px -18px 36px #bebebe, 18px 18px 36px #ffffff;
 }
 
-.paragraph {
-    margin-top: 10px;
-    color: blue;
-    font-size: 14px;
-}
-
-.botao {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    font-weight: bold;
-    text-decoration: underline;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
+.h2 {
+    font-size: 1.3rem;
 }

@@ -13,7 +13,7 @@
 .questions {
     text-align: center;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 1.563rem;
 }
 
 .options {
@@ -22,7 +22,7 @@
 }
 
 .option {
-    font-size: 18px;
+    font-size: 1.125rem;
     width: 15vw;
     height: 5vh;
     margin: 0 10px;
@@ -51,11 +51,11 @@
 
 .message {
     text-align: center;
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 .acertos {
-    font-size: 40px;
+    font-size: 2.5rem;
     color: green;
     font-weight: bold;
 }
@@ -85,4 +85,31 @@
     color: blue;
     font-weight: bold;
     border: 1px solid blue;
+}
+
+/* Responsividade com media query */
+
+@media (max-width: 738px) {
+    .questions {
+        padding: 0 0.7rem;
+    }
+}
+
+@media (max-width: 455px) {
+    .button {
+        width: 25%;
+    }
+    .answer {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .finaly {
+        width: 90vw;
+    }
+}
+
+@media (max-width: 260px) {
+    .button {
+        width: 30%;
+    }
 }
